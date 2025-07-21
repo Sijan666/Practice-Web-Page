@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.full {
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    background-image: url("../images/b.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .1;
+    z-index: -1;
+}
+
+
+
+
+
+
+.header{
+    padding: 60px 0;
+    background: #F1F3F6;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header h1{
+    font-size: 70px;
+    text-align: center;
+}
+
+.containerT{
+    width: 1200px;
+    padding: 60px 0;
+    margin: 0 auto;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li a{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    padding: 0 30px;
+    text-decoration: none;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 23px;
+    transition: .5s;
+}
+
+a{
+    text-decoration: none ;
+}
+
+.menu ul li a:hover{
+    color: tomato;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+
+
+
+
+.lineA{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.cat{
+    margin: 10px 0 0 40px;
+    width: 25%;
+    height: 500px;
+}
+
+.tran{
+    height: 500px;
+    width: 25%;
+    margin: 10px 0 0 20px;
+}
+
+.wht{
+    height: 500px;
+    width: 25%;
+    margin: 10px 0 0 20px;
+}
+
+.imag{
+    height: 500px;
+    width: 25%;
+    margin: 10px 0 0 20px;
+    
+}
+
+
+
+.cat ul li a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.cat ul li a:hover{
+    color: tomato;
+}
+
+
+.cat ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.2);
+}
+
+
+
+
+.tran ul li a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.tran ul li a:hover{
+    color: tomato;
+}
+
+.tran ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.2);
+    display: inline-block;
+}
+
+
+
+
+
+
+.wht ul li a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.wht ul li a:hover{
+    color: tomato;
+}
+
+.wht ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.2);
+    
+}
+
+
+
+

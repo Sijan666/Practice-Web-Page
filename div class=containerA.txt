@@ -1,0 +1,65 @@
+<div class="containerA">
+        <div class="lineA">
+            <div class="cat">
+                <h2>Shop by Category</h2>
+                <ul>
+                    <li><a href="#">Beachwear</a></li>
+                    <li><a href="#">Blouses</a></li>
+                    <li><a href="#">Coats</a></li>
+                    <li><a href="#">Denim</a></li>
+                    <li><a href="#">Dresses</a></li>
+                    <li><a href="#">Jacket</a></li>
+                    <li><a href="#">Jeans</a></li>
+                </ul>
+            </div>
+
+            <div class="tren">
+                <h2>Trending now</h2>
+            </div>
+            
+            <div class="weAr">
+                <h2>What to wear</h2>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+.lineA{
+    width: 1200px;
+    font-size: 25px;
+    padding: 60px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.cat ul li a{
+    color: rgb(0, 0, 0);
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 30px;
+    
+}
+
+
+
+
+
+
+
+            <ul>
+                <li><a href="#">Beachwear</a></li>
+                <li><a href="#">Blouses</a></li>
+                <li><a href="#">Coats</a></li>
+                <li><a href="#">Denim</a></li>
+                <li><a href="#">Jackets</a></li>
+                <li><a href="#">Dresses</a></li>
+                <li><a href="#">Jeans</a></li>
+            </ul>
